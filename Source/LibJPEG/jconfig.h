@@ -1,3 +1,5 @@
+#error "use LibJPEGTurbo instead"
+
 /*
  * jconfig.txt
  *
