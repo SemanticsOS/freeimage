@@ -89,6 +89,7 @@ clean:
 	rm -f core Dist/*.* u2dtmp* $(MODULES) $(STATICLIB) $(SHAREDLIB) $(LIBNAME)
 	if [ -e Source/LibJPEGTurbo/Makefile ]; then make -C Source/LibJPEGTurbo distclean; fi
 	rm -rf $(LIBJPEGTURBO_O) $(LIBJPEGTURBO_A) $(LIBJPEGTURBO_H)
+	touch Dist/delete.me
 
 $(LIBJPEGTURBO_H):
 	cd Source/LibJPEGTurbo && ./configure --disable-shared --enable-static --with-jpeg8 --with-pic
