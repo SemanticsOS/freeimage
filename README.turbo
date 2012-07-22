@@ -1,0 +1,13 @@
+Howto
+=====
+
+ * add libjpeg-turbo-1.2.1 as Sources/LibJPEGTurbo
+
+ * removed LibJPEG from gensrclist.sh + genfipsrclist.sh and run both scripts
+
+ * Replace includes:
+
+     find -type f -and -name '*.[ch]*' -print0 | xargs -0 sed -i s,../LibJPEG/,../LibJPEGTurbo/,g
+
+ * alter Makefile.gnu
+
