@@ -59,15 +59,14 @@ FreeImage: $(STATICLIB) $(SHAREDLIB)
 
 $(MODULES): $(LIBJPEGTURBO_H)
 
-# turbojpeg first, FreeImage depends on generated header files
 $(STATICLIB): $(LIBJPEGTURBO_A) $(MODULES)
 	$(AR) r $@ $(MODULES)
 	mkdir -p $(LIBJPEGTURBO_O)
 	cd $(LIBJPEGTURBO_O); $(AR) x ../$(LIBJPEGTURBO_A)
 	$(AR) -r $@ $(LIBJPEGTURBO_O)/*.o
 
-$(SHAREDLIB): $(LIBJPEGTURBO_A) $(MODULES)
-	$(CC) -s -shared -Wl,-soname,$(VERLIBNAME) $(LDFLAGS) -o $@ $(MODULES) $(LIBJPEGTURBO_O)/*.o  $(LIBRARIES)
+$(SHAREDLIB): $(LIBJPEGTURBO_A) $(MODULES) 
+	$(CC) -s -shared -Wl,-soname,$(VERLIBNAME) $(LDFLAGS) -o $@ $(MODULES) $(LIBJPEGTURBO_A)  $(LIBRARIES)
 
 install:
 	install -d $(INCDIR) $(INSTALLDIR)
