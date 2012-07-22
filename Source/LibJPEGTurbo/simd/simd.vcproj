@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="simd"
+	ProjectGUID="{39D311B0-5A1A-4B1C-9CD6-50C2B05E281E}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="simd.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				DisableSpecificWarnings="4996"
+				ExceptionHandling="0"
+				WarningLevel="3"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="..;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="simd.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				DisableSpecificWarnings="4996"
+				ExceptionHandling="0"
+				WarningLevel="3"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="..;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="simd.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				DisableSpecificWarnings="4996"
+				ExceptionHandling="0"
+				WarningLevel="3"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="..;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="simd.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				DisableSpecificWarnings="4996"
+				ExceptionHandling="0"
+				WarningLevel="3"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="..;"
+				PreprocessorDefinitions="WITH_SIMD;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="..;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\simd">
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/CMakeLists.txt"
+					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/CMakeLists.txt"
+					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/CMakeLists.txt"
+					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/CMakeLists.txt"
+					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeLists.txt;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\simd.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\simd"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\simd"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\simd"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\simd"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jsimdcpu.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jsimdcpu.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jsimdcpu.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jsimdcpu.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdcpu.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jsimdcpu.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jsimdcpu.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jsimdcpu.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdcpu.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jsimdcpu.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jsimdcpu.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jsimdcpu.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdcpu.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jsimdcpu.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jsimdcpu.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jsimdcpu.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdcpu.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jsimdcpu.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jccolmmx.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolmmx.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcgrammx.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrammx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrammx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrammx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrammx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrymmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrammx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrammx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrammx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrammx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrymmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrammx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrammx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrammx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrammx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrymmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrammx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrammx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrammx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrammx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrymmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrammx.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jdcolmmx.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolmmx.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcsammmx.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsammmx.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jdsammmx.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsammmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsammmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsammmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsammmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsammmx.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jdmermmx.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmermmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmermmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmermmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmermmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmermmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmermmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmermmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmermmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmermmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmermmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmermmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmermmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmermmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmermmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmermmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmermmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmermmx.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcqntmmx.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntmmx.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntmmx.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntmmx.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntmmx.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntmmx.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jfmmxfst.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxfst.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jfmmxint.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfmmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfmmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfmmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfmmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfmmxint.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jimmxred.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxred.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxred.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxred.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxred.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxred.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxred.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxred.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxred.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxred.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxred.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxred.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxred.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxred.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxred.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxred.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxred.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxred.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jimmxint.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxint.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxint.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxint.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxint.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxint.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jimmxfst.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jimmxfst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jimmxfst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jimmxfst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jimmxfst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jimmxfst.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcqnt3dn.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnt3dn.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnt3dn.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnt3dn.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnt3dn.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnt3dn.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnt3dn.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnt3dn.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnt3dn.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnt3dn.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnt3dn.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnt3dn.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnt3dn.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnt3dn.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnt3dn.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnt3dn.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnt3dn.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnt3dn.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jf3dnflt.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jf3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jf3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jf3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jf3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jf3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jf3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jf3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jf3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jf3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jf3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jf3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jf3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jf3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jf3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jf3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jf3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jf3dnflt.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\ji3dnflt.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/ji3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ji3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/ji3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\ji3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/ji3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ji3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/ji3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\ji3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/ji3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ji3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/ji3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\ji3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/ji3dnflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ji3dnflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/ji3dnflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\ji3dnflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\ji3dnflt.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcqntsse.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntsse.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntsse.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntsse.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntsse.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntsse.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntsse.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntsse.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntsse.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntsse.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntsse.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntsse.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntsse.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqntsse.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqntsse.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqntsse.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqntsse.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqntsse.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jfsseflt.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfsseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfsseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfsseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfsseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfsseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfsseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfsseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfsseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfsseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfsseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfsseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfsseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfsseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfsseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfsseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfsseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfsseflt.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jisseflt.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jisseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jisseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jisseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jisseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jisseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jisseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jisseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jisseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jisseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jisseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jisseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jisseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jisseflt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jisseflt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jisseflt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jisseflt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jisseflt.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jccolss2.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jccolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jccolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jccolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jccolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jccolss2.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcgrass2.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrass2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrass2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrass2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrass2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgryss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrass2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrass2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrass2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrass2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgryss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrass2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrass2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrass2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrass2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgryss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcgrass2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcgrass2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcgrass2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgrass2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcgryss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcgrass2.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jdcolss2.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdcolss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdcolss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdcolss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdcolss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdclrss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdcolss2.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcsamss2.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcsamss2.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jdsamss2.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdsamss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdsamss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdsamss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdsamss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdsamss2.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jdmerss2.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmerss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmerss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmerss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmerss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmerss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmerss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmerss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmerss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmerss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmerss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmerss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmerss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jdmerss2.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jdmerss2.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jdmerss2.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmerss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdmrgss2.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jdmerss2.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcqnts2i.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2i.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2i.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2i.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2i.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2i.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2i.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2i.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2i.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2i.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2i.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2i.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2i.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2i.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2i.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2i.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2i.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2i.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jfss2fst.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2fst.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jfss2int.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jfss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jfss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jfss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jfss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jfss2int.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jiss2red.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2red.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2red.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2red.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2red.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2red.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2red.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2red.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2red.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2red.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2red.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2red.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2red.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2red.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2red.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2red.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2red.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2red.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jiss2int.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2int.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2int.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2int.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2int.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2int.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jiss2fst.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2fst.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2fst.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2fst.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2fst.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2fst.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jcqnts2f.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2f.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2f.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2f.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2f.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2f.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2f.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2f.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2f.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2f.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2f.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2f.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2f.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jcqnts2f.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jcqnts2f.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jcqnts2f.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcqnts2f.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jcqnts2f.obj"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\CMakeFiles\jiss2flt.obj.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2flt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2flt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2flt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2flt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2flt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2flt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2flt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2flt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2flt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2flt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2flt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2flt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating $(OutDir)/jiss2flt.obj"
+					CommandLine="nasm -fwin32 -DWIN32 -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/win/ -IE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/ E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/jiss2flt.asm -oE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/simd/$(OutDir)/jiss2flt.obj&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jiss2flt.asm;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jcolsamp.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jdct.inc;E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\jsimdext.inc;"
+					Outputs="E:\tmp\FreeImageTurbo\Source\LibJPEGTurbo\simd\$(OutDir)\jiss2flt.obj"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
