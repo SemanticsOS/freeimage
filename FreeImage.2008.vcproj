@@ -83,13 +83,13 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile=".\Release/FreeImage.dll"
+				OutputFile=".\Release/FreeImageTurbo.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				ProgramDatabaseFile=".\Release/FreeImage.pdb"
+				ProgramDatabaseFile=".\Release/FreeImageTurbo.pdb"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary=".\Release/FreeImage.lib"
+				ImportLibrary=".\Release/FreeImageTurbo.lib"
 				TargetMachine="1"
 				Profile="true"
 			/>
@@ -113,7 +113,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy Release\FreeImage.dll Dist&#x0D;&#x0A;copy Release\FreeImage.lib Dist&#x0D;&#x0A;copy Source\FreeImage.h Dist&#x0D;&#x0A;"
+				CommandLine="copy Release\FreeImageTurbo.dll Dist&#x0D;&#x0A;copy Release\FreeImageTurbo.lib Dist&#x0D;&#x0A;copy Source\FreeImage.h Dist&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -277,14 +277,14 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="Debug/FreeImaged.dll"
+				OutputFile=".\Debug/FreeImageTurbod.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Debug/FreeImaged.pdb"
+				ProgramDatabaseFile=".\Debug/FreeImagedTurbo.pdb"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary=".\Debug/FreeImaged.lib"
+				ImportLibrary=".\Debug/FreeImageTurbod.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -307,7 +307,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy Debug\FreeImaged.dll Dist&#x0D;&#x0A;copy Debug\FreeImaged.lib Dist&#x0D;&#x0A;copy Source\FreeImage.h Dist&#x0D;&#x0A;"
+				CommandLine="copy Debug\FreeImageTurbod.dll Dist&#x0D;&#x0A;copy Debug\FreeImageTurbod.lib Dist&#x0D;&#x0A;copy Source\FreeImage.h Dist&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
