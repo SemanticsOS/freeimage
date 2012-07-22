@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
-	Name="turbojpeg-static"
+	Version="9,00"
+	Name="LibJPEGTurbo"
 	ProjectGUID="{2CB1CE24-0DA5-456D-AA7E-43F745C2C9AD}"
-	Keyword="Win32Proj">
+	RootNamespace="LibJPEGTurbo"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
@@ -16,53 +22,83 @@
 			IntermediateDirectory="turbojpeg-static.dir\Debug"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalOptions=" /Zm1000"
-				AdditionalIncludeDirectories=".;x86"
-				BasicRuntimeChecks="3"
-				CompileAs="1"
-				DebugInformationFormat="3"
-				DisableSpecificWarnings="4996"
-				ExceptionHandling="0"
-				InlineFunctionExpansion="0"
-				Optimization="0"
-				RuntimeLibrary="1"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Debug\&quot;"
-				AssemblerListingLocation="Debug"
-				ObjectFile="$(IntDir)\"
-				ProgramDataBaseFileName=".\Debug/turbojpeg-static.pdb"
-/>
+				Name="VCPreBuildEventTool"
+				CommandLine="copy $(InputDir)\x86\*.h  $(InputDir)"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories=".;x86"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories=".;x86"
-				MkTypLibCompatible="FALSE"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories=".;x86"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="0"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName=".\Debug/turbojpeg-static.pdb"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="1"
+				DisableSpecificWarnings="4996"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories=".;x86"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile=".\Debug\turbojpeg-static.lib"/>
+				OutputFile=".\Debug\turbojpeg-static.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -70,51 +106,81 @@
 			IntermediateDirectory="turbojpeg-static.dir\Release"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalOptions=" /Zm1000"
-				AdditionalIncludeDirectories=".;x86"
-				CompileAs="1"
-				DisableSpecificWarnings="4996"
-				ExceptionHandling="0"
-				InlineFunctionExpansion="2"
-				Optimization="2"
-				RuntimeLibrary="0"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Release\&quot;"
-				AssemblerListingLocation="Release"
-				ObjectFile="$(IntDir)\"
-				ProgramDataBaseFileName=".\Release/turbojpeg-static.pdb"
-/>
+				Name="VCPreBuildEventTool"
+				CommandLine="copy $(InputDir)\x86\*.h  $(InputDir)"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories=".;x86"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories=".;x86"
-				MkTypLibCompatible="FALSE"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories=".;x86"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName=".\Release/turbojpeg-static.pdb"
+				WarningLevel="3"
+				CompileAs="1"
+				DisableSpecificWarnings="4996"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories=".;x86"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile=".\Release\turbojpeg-static.lib"/>
+				OutputFile=".\Release\turbojpeg-static.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -122,51 +188,81 @@
 			IntermediateDirectory="turbojpeg-static.dir\MinSizeRel"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalOptions=" /Zm1000"
-				AdditionalIncludeDirectories=".;x86"
-				CompileAs="1"
-				DisableSpecificWarnings="4996"
-				ExceptionHandling="0"
-				InlineFunctionExpansion="1"
-				Optimization="1"
-				RuntimeLibrary="0"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				AssemblerListingLocation="MinSizeRel"
-				ObjectFile="$(IntDir)\"
-				ProgramDataBaseFileName=".\MinSizeRel/turbojpeg-static.pdb"
-/>
+				Name="VCPreBuildEventTool"
+				CommandLine="copy $(InputDir)\x86\*.h  $(InputDir)"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories=".;x86"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories=".;x86"
-				MkTypLibCompatible="FALSE"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories=".;x86"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName=".\MinSizeRel/turbojpeg-static.pdb"
+				WarningLevel="3"
+				CompileAs="1"
+				DisableSpecificWarnings="4996"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories=".;x86"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile=".\MinSizeRel\turbojpeg-static.lib"/>
+				OutputFile=".\MinSizeRel\turbojpeg-static.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -174,361 +270,441 @@
 			IntermediateDirectory="turbojpeg-static.dir\RelWithDebInfo"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalOptions=" /Zm1000"
-				AdditionalIncludeDirectories=".;x86"
-				CompileAs="1"
-				DebugInformationFormat="3"
-				DisableSpecificWarnings="4996"
-				ExceptionHandling="0"
-				InlineFunctionExpansion="1"
-				Optimization="2"
-				RuntimeLibrary="0"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				AssemblerListingLocation="RelWithDebInfo"
-				ObjectFile="$(IntDir)\"
-				ProgramDataBaseFileName=".\RelWithDebInfo/turbojpeg-static.pdb"
-/>
+				Name="VCPreBuildEventTool"
+				CommandLine="copy $(InputDir)\x86\*.h  $(InputDir)"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories=".;x86"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories=".;x86"
-				MkTypLibCompatible="FALSE"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories=".;x86"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName=".\RelWithDebInfo/turbojpeg-static.pdb"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="1"
+				DisableSpecificWarnings="4996"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories=".;x86"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile=".\RelWithDebInfo\turbojpeg-static.lib"/>
+				OutputFile=".\RelWithDebInfo\turbojpeg-static.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath=".\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/CMakeLists.txt"
-					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file .\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies=".\CMakeLists.txt;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in&quot;;.\CMakeFiles\CMakeSystem.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeRCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;.\win\jconfig.h.in;.\win\config.h.in;.\release\libjpeg-turbo.nsi.in;.\CMakeLists.txt;"
-					Outputs=".\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/CMakeLists.txt"
-					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file .\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies=".\CMakeLists.txt;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in&quot;;.\CMakeFiles\CMakeSystem.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeRCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;.\win\jconfig.h.in;.\win\config.h.in;.\release\libjpeg-turbo.nsi.in;.\CMakeLists.txt;"
-					Outputs=".\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/CMakeLists.txt"
-					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file .\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies=".\CMakeLists.txt;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in&quot;;.\CMakeFiles\CMakeSystem.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeRCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;.\win\jconfig.h.in;.\win\config.h.in;.\release\libjpeg-turbo.nsi.in;.\CMakeLists.txt;"
-					Outputs=".\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule E:/tmp/FreeImageTurbo/Source/LibJPEGTurbo/CMakeLists.txt"
-					CommandLine="&quot;c:\Programme\CMake 2.8\bin\cmake.exe&quot; -HE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo -BE:/tmp/FreeImageTurbo/Source/LibJPEGTurbo --check-stamp-file .\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies=".\CMakeLists.txt;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in&quot;;.\CMakeFiles\CMakeSystem.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeRCCompiler.cmake;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c&quot;;&quot;c:\Programme\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in&quot;;.\CMakeFiles\CMakeCCompiler.cmake;.\win\jconfig.h.in;.\win\config.h.in;.\release\libjpeg-turbo.nsi.in;.\CMakeLists.txt;"
-					Outputs=".\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
 		<Filter
 			Name="Source Files"
-			Filter="">
+			>
 			<File
-				RelativePath=".\jcapimin.c">
+				RelativePath=".\jaricom.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcapistd.c">
+				RelativePath=".\jcapimin.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jccoefct.c">
+				RelativePath=".\jcapistd.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jccolor.c">
+				RelativePath=".\jcarith.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcdctmgr.c">
+				RelativePath=".\jccoefct.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jchuff.c">
+				RelativePath=".\jccolor.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcinit.c">
+				RelativePath=".\jcdctmgr.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcmainct.c">
+				RelativePath=".\jchuff.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcmarker.c">
+				RelativePath=".\jcinit.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcmaster.c">
+				RelativePath=".\jcmainct.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcomapi.c">
+				RelativePath=".\jcmarker.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcparam.c">
+				RelativePath=".\jcmaster.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcphuff.c">
+				RelativePath=".\jcomapi.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcprepct.c">
+				RelativePath=".\jcparam.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcsample.c">
+				RelativePath=".\jcphuff.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jctrans.c">
+				RelativePath=".\jcprepct.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdapimin.c">
+				RelativePath=".\jcsample.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdapistd.c">
+				RelativePath=".\jctrans.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdatadst.c">
+				RelativePath=".\jdapimin.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdatasrc.c">
+				RelativePath=".\jdapistd.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdcoefct.c">
+				RelativePath=".\jdarith.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdcolor.c">
+				RelativePath=".\jdatadst-tj.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jddctmgr.c">
+				RelativePath=".\jdatadst.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdhuff.c">
+				RelativePath=".\jdatasrc-tj.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdinput.c">
+				RelativePath=".\jdatasrc.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdmainct.c">
+				RelativePath=".\jdcoefct.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdmarker.c">
+				RelativePath=".\jdcolor.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdmaster.c">
+				RelativePath=".\jddctmgr.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdmerge.c">
+				RelativePath=".\jdhuff.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdphuff.c">
+				RelativePath=".\jdinput.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdpostct.c">
+				RelativePath=".\jdmainct.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdsample.c">
+				RelativePath=".\jdmarker.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdtrans.c">
+				RelativePath=".\jdmaster.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jerror.c">
+				RelativePath=".\jdmerge.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jfdctflt.c">
+				RelativePath=".\jdphuff.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jfdctfst.c">
+				RelativePath=".\jdpostct.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jfdctint.c">
+				RelativePath=".\jdsample.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jidctflt.c">
+				RelativePath=".\jdtrans.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jidctfst.c">
+				RelativePath=".\jerror.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jidctint.c">
+				RelativePath=".\jfdctflt.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jidctred.c">
+				RelativePath=".\jfdctfst.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jquant1.c">
+				RelativePath=".\jfdctint.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jquant2.c">
+				RelativePath=".\jidctflt.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jutils.c">
+				RelativePath=".\jidctfst.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jmemmgr.c">
+				RelativePath=".\jidctint.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jmemnobs.c">
+				RelativePath=".\jidctred.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jaricom.c">
+				RelativePath=".\jmemmgr.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jcarith.c">
+				RelativePath=".\jmemnobs.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdarith.c">
+				RelativePath=".\jquant1.c"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\jsimd_i386.c">
+				RelativePath=".\jquant2.c"
+				>
 			</File>
 			<File
-				RelativePath=".\turbojpeg.c">
+				RelativePath=".\simd\jsimd_i386.c"
+				>
 			</File>
 			<File
-				RelativePath=".\transupp.c">
+				RelativePath=".\jutils.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdatadst-tj.c">
+				RelativePath=".\transupp.c"
+				>
 			</File>
 			<File
-				RelativePath=".\jdatasrc-tj.c">
+				RelativePath=".\turbojpeg.c"
+				>
 			</File>
 		</Filter>
 		<Filter
 			Name="Object Files"
-			Filter="">
+			>
 			<File
-				RelativePath=".\simd\$(OutDir)\jsimdcpu.obj">
+				RelativePath=".\simd\$(OutDir)\jccolmmx.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jccolmmx.obj">
+				RelativePath=".\simd\$(OutDir)\jccolss2.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcgrammx.obj">
+				RelativePath=".\simd\$(OutDir)\jcgrammx.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jdcolmmx.obj">
+				RelativePath=".\simd\$(OutDir)\jcgrass2.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcsammmx.obj">
+				RelativePath=".\simd\$(OutDir)\jcqnt3dn.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jdsammmx.obj">
+				RelativePath=".\simd\$(OutDir)\jcqntmmx.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jdmermmx.obj">
+				RelativePath=".\simd\$(OutDir)\jcqnts2f.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcqntmmx.obj">
+				RelativePath=".\simd\$(OutDir)\jcqnts2i.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jfmmxfst.obj">
+				RelativePath=".\simd\$(OutDir)\jcqntsse.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jfmmxint.obj">
+				RelativePath=".\simd\$(OutDir)\jcsammmx.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jimmxred.obj">
+				RelativePath=".\simd\$(OutDir)\jcsamss2.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jimmxint.obj">
+				RelativePath=".\simd\$(OutDir)\jdcolmmx.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jimmxfst.obj">
+				RelativePath=".\simd\$(OutDir)\jdcolss2.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcqnt3dn.obj">
+				RelativePath=".\simd\$(OutDir)\jdmermmx.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jf3dnflt.obj">
+				RelativePath=".\simd\$(OutDir)\jdmerss2.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\ji3dnflt.obj">
+				RelativePath=".\simd\$(OutDir)\jdsammmx.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcqntsse.obj">
+				RelativePath=".\simd\$(OutDir)\jdsamss2.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jfsseflt.obj">
+				RelativePath=".\simd\$(OutDir)\jf3dnflt.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jisseflt.obj">
+				RelativePath=".\simd\$(OutDir)\jfmmxfst.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jccolss2.obj">
+				RelativePath=".\simd\$(OutDir)\jfmmxint.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcgrass2.obj">
+				RelativePath=".\simd\$(OutDir)\jfss2fst.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jdcolss2.obj">
+				RelativePath=".\simd\$(OutDir)\jfss2int.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcsamss2.obj">
+				RelativePath=".\simd\$(OutDir)\jfsseflt.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jdsamss2.obj">
+				RelativePath=".\simd\$(OutDir)\ji3dnflt.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jdmerss2.obj">
+				RelativePath=".\simd\$(OutDir)\jimmxfst.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcqnts2i.obj">
+				RelativePath=".\simd\$(OutDir)\jimmxint.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jfss2fst.obj">
+				RelativePath=".\simd\$(OutDir)\jimmxred.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jfss2int.obj">
+				RelativePath=".\simd\$(OutDir)\jiss2flt.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jiss2red.obj">
+				RelativePath=".\simd\$(OutDir)\jiss2fst.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jiss2int.obj">
+				RelativePath=".\simd\$(OutDir)\jiss2int.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jiss2fst.obj">
+				RelativePath=".\simd\$(OutDir)\jiss2red.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jcqnts2f.obj">
+				RelativePath=".\simd\$(OutDir)\jisseflt.obj"
+				>
 			</File>
 			<File
-				RelativePath=".\simd\$(OutDir)\jiss2flt.obj">
+				RelativePath=".\simd\$(OutDir)\jsimdcpu.obj"
+				>
 			</File>
 		</Filter>
 	</Files>

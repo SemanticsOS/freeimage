@@ -42,3 +42,16 @@ libfreeimageturbo-*.so
 *.Plo
 *.a
 *~
+
+Dist/FreeImageTurbo.dll
+Dist/FreeImageTurbo.lib
+FreeImageTurbo.dll
+FreeImageTurbo.lib
+Release
+Debug
+Source/*/Release
+Source/*/Debug
+Source/LibJPEGTurbo/simd/Release
+Source/LibJPEGTurbo/simd/Debug
+
+*.user
