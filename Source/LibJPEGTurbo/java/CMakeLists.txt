@@ -9,10 +9,11 @@ set(JAVA_CLASSNAMES org/libjpegturbo/turbojpeg/TJ
   org/libjpegturbo/turbojpeg/TJTransform
   org/libjpegturbo/turbojpeg/TJTransformer
   TJUnitTest
-  TJExample)
+  TJExample
+  TJBench)
 
 if(MSVC_IDE)
-  set(OBJDIR "${CMAKE_CURRENT_BINARY_DIR}/$(OutDir)")
+  set(OBJDIR "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}")
 else()
   set(OBJDIR ${CMAKE_CURRENT_BINARY_DIR})
 endif()
